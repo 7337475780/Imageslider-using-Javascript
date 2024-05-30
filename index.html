@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Image Slider using Javascript</title>
+</head>
+<body>
+    <div class="slide-container">
+
+        <div class="slides">
+            <img src="https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg" class="active">
+            <img src="https://free-3dtextureshd.com/wallpapers/Abstract/Desktop%20version/2560%20x%201440/44_Abstract_Background_2560x1440.jpg">
+            <img src="https://images.unsplash.com/photo-1556379092-dca659792591?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D">
+            <img src="https://free-3dtextureshd.com/wp-content/webpc-passthru.php?src=https://free-3dtextureshd.com/wp-content/uploads/2024/03/20.jpg&nocache=1">
+        </div>
+
+        <div class="buttons">
+            <span class="next">&#10095</span>
+            <span class="prev">&#10094</span>
+
+        </div>
+
+        <div class="dotsContainer">
+            <div class="dot active" attr="0" onclick="switchImage(this)"></div>
+            <div class="dot" attr="1" onclick="switchImage(this)"></div>
+            <div class="dot" attr="2" onclick="switchImage(this)"></div>
+            <div class="dot" attr="3" onclick="switchImage(this)"></div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
